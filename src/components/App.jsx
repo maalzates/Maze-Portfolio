@@ -1,7 +1,9 @@
 import React from 'react';
+import '../assets/styles/App.scss';
+import Header from './Header';
 
 const App = () => (
-    <h1>Hola Mundo</h1>
+  <Header/>
     
 );
 
