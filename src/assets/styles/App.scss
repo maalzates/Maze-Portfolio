@@ -1,9 +1,18 @@
+@import "./Vars.scss";
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: $theme-font;
+  font-size: 8px;
 }
 
 body {
-  background-color: black;
+  background-color: $main-color;
+}
+
+#app {
+  position: relative;
+  height: 100vh;
 }

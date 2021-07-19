@@ -1,0 +1,37 @@
+@import "../Vars.scss";
+
+.main-containers {
+  display: flex;
+  position: relative;
+  width: 100vw;
+  min-height: 500px;
+  flex-wrap: wrap;
+}
+
+.block-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex: 1;
+  min-width: 512px;
+}
+.container-left {
+  background-color: blueviolet;
+}
+
+.container-right {
+  background-color: brown;
+}
+
+.cards-container {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+}
+
+.category-container {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+}

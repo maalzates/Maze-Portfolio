@@ -1,19 +1,36 @@
-.header-container .menu-container {
+@import "../Vars.scss";
+
+.menu-container {
   display: flex;
   flex-wrap: wrap;
+  padding: 1.5rem;
+  background: $main-color;
 }
 
-.header-container .menu-container a {
+.menu-container a {
   text-decoration: none;
   color: white;
+  font-family: $theme-font;
+  font-size: 25px;
+  font-weight: condensed;
+  letter-spacing: 0.5px;
 }
-.header-container .menu-container .header-menu-item {
+
+.menu-container a:hover {
+  color: $clickable-color;
+}
+.menu-container .header-menu-item {
   align-self: center;
   list-style-type: none;
   padding: 1rem;
 }
 
-#main-logo {
-  width: 290px;
-  height: 98.001px;
+.main-logo {
+  width: 201px;
+  height: 68px;
+  fill: #fff;
+}
+
+.menu-container .main-logo:hover {
+  fill: $clickable-color;
 }
