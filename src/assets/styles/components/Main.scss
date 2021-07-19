@@ -1,11 +1,15 @@
 @import "../Vars.scss";
 
+main {
+  display: flex;
+  justify-content: space-around;
+}
 .main-containers {
   display: flex;
-  position: relative;
   width: 100vw;
   min-height: 500px;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .block-container {
@@ -15,6 +19,8 @@
   flex-wrap: wrap;
   flex: 1;
   min-width: 512px;
+  max-width: 600px;
+  min-height: 500px;
 }
 .container-left {
   background-color: blueviolet;
